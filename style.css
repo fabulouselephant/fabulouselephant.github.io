@@ -1,0 +1,135 @@
+body{
+  margin:0;
+  padding:0;
+  font-size: 18px;
+  font-family: Arial;
+  background-image:-webkit-radial-gradient(#FF8700,#027DB3);
+  background-image:-moz-radial-gradient(#FF8700,#027DB3);
+  background-image:-ms-radial-gradient(#FF8700,#027DB3);
+  background-image:-o-radial-gradient(#FF8700,#027DB3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#027DB3, endColorstr=#FF8700);
+}
+
+.header td{
+  width:50%;
+}
+
+.header table{
+  background-color: #282828;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.header img{
+  width:100%;
+  border-radius: 5px;
+  display:block;
+}
+
+.header{
+  width:1120px;
+  margin:0 auto 20px auto;
+}
+
+.menu{
+  background-color: #282828;
+  border-radius: 5px;
+  width:900px;
+  margin:20px auto;
+  text-align: center;
+  padding:10px 0;
+  color:#fff;
+}
+.menuItem{
+  display:inline-block;
+  position:relative;
+  padding:0 10px;
+}
+.menuItem a{
+  text-decoration: none;
+  color: #fff;
+}
+.subMenu{
+  display: none;
+  text-align: left;
+  position: absolute;
+  top:100%;
+  left:0;
+  background-color: #282828;
+  padding:5px 10px;
+  line-height: 150%;
+}
+.menuItem:hover .subMenu{
+  display: block;
+}
+.mainPage{
+  width:1120px;
+  margin:0 auto 20px auto;
+  background-color:#202020;
+  border-radius: 5px;
+}
+.intro{
+  line-height: 140%;
+  color:grey;
+  padding:50px 120px;
+}
+
+.intro p{
+  text-indent: 50px;
+}
+.footer{
+  width:1120px;
+  background-color:#202020;
+  margin:20px auto;
+  text-align: center;
+  padding:10px 0;
+  border-radius: 5px;
+  color:grey;
+}
+h2{
+  color:white;
+  text-align: center;
+}
+.imageLeft,.imageRight {
+  border:1px solid grey;
+  border-radius: 5px;
+  margin: 20px;
+  display: block;
+}
+.imageLeft{
+  float:left;
+  margin-left:0;
+}
+.imageRight{
+  float:right;
+  margin-right:0;
+}
+.photo img{
+  width:1000px;
+  height:600px;
+  border: 5px solid #282828;
+  border-radius: 5px;
+}
+.photo{
+  margin:10px auto;
+}
+.photo td{
+  font-size: 22px;
+}
+.smallPhoto img{
+  width: 200px;
+  height: 100px;
+  margin:10px 20px;
+  border:1px solid transparent;
+}
+.smallPhoto{
+  margin:10px auto;
+}
+.photo a{
+  color:#282828;
+  text-decoration: none;
+}
+p:first-letter {
+  font-family: Garamond;
+  font-size: 25px;
+}
