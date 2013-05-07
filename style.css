@@ -6,7 +6,7 @@ body{
   background-image:-webkit-radial-gradient(#FF8700,#027DB3);
   background-image:-moz-radial-gradient(#FF8700,#027DB3);
   background-image:-ms-radial-gradient(#FF8700,#027DB3);
-  background-image:-o-radial-gradient(#FF8700,#027DB3);
+  background-image:-o-linear-gradient(#FF8700,#027DB3);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#027DB3, endColorstr=#FF8700);
 }
 
